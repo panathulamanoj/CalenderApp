@@ -19,7 +19,6 @@ export default function Event({ evt }) {
     >
       <div className="event-header">
         <span className="event-badge">Event</span>
-        <button className="edit-btn">Edit</button>
       </div>
 
       <h3 className="event-title">{evt.title}</h3>
