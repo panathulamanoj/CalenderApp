@@ -1,5 +1,5 @@
 
-import './Day.css';
+import './day.css';
 
 export default function Day({ day, styles, actday, issmonth, evt = [] }) {
   return (
