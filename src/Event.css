@@ -1,0 +1,84 @@
+
+.event-wrapper {
+  background: #fff;
+  border-radius: 14px;
+  padding: 18px 22px;
+  margin: 12px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+  border-left: 6px solid var(--event-color, #2196f3);
+  transition: all 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.event-wrapper:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+
+.event-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.event-badge {
+  color: #4caf50;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.edit-btn {
+  background: #f8f9fc;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 4px 10px;
+  font-size: 0.75rem;
+  color: #555;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.edit-btn:hover {
+  background: #eef1ff;
+}
+
+
+.event-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1e1e1e;
+  margin: 10px 0 14px 0;
+}
+
+
+.event-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.event-info p {
+  margin: 3px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.event-days {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.day-tag {
+  background: #f1f3f9;
+  color: #333;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.75rem;
+  font-weight: 500;
+}

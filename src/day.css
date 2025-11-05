@@ -1,0 +1,38 @@
+.day-number {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+  text-align: center;
+}
+
+.day-events {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+  width: 100%;
+}
+
+.event-preview {
+  width: 80%;
+  font-size: 0.65rem;
+  padding: 1px 3px;
+  border-left: 3px solid var(--event-color);
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+  line-height: 1.1;
+}
+
+.event-preview.centered {
+  text-align: center;
+}
+
+.more-events {
+  font-size: 0.6rem;
+  color: #666;
+  text-align: center;
+}
