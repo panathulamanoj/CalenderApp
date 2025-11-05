@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import {v4 as uuid} from 'uuid'
 import './Calender.css'
-import Weekday from './weekday'
+import Weekday from './Weekday'
 import Day from './day'
 import events from './data/event.js'
 import  Event from './Event'
